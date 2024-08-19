@@ -1,0 +1,353 @@
+[
+   {
+      "day": "Friday",      
+      "panels": [
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "5:00 PM - 6:00 PM",
+            "panel": "Power Rangers Photo Documentary",
+            "description": "Bruce will be showing a documentary about his time on the power ranger sets.",
+            "participants": "",
+            "moderator": "Bruce Hensuis"
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "6:00 PM - 7:00 PM",
+            "panel": "Power Rangers Photo Fashion Review",
+            "description": "",
+            "participants": "",
+            "moderator": "Michael Freeby"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "6:00 PM - 7:00 PM",
+            "panel": "Gaming with Dads presents From Rangers to Devils",
+            "description": "Join us for a special 25th anniversary panel for the Devil may Cry series.",
+            "participants": "Johnny Yong Bosch, Reuben Langdon, Dan Southworth",
+            "moderator": "Gaming with Dads"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "6:00 PM - 7:00 PM",
+            "panel": "Super Sentai and... Spider-Man?",
+            "description": "Presenting a brief overview of the origins behind the Sentai franchise and Spider-Man along with how it revolutionized the Tokusatsu genre with the likes of giant robots.",
+            "participants": "",
+            "moderator": "Marcus Hanks and Kelly Sisson"
+         }
+      ]
+   },
+   {
+      "day": "Saturday",
+      "panels": [
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "10:00 AM - 11:00 AM",
+            "panel": "Power Rangers Project Zodiac",
+            "description": "Join the cast as we answer questions and five into the making of this Fan Series. Get an exclusive view of Episode 3 and discuss what's to come.",
+            "participants": "",
+            "moderator": "DMo, Jomauri, James"
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "12:00 PM - 1:30 PM",
+            "panel": "VBTubers Love Power Rangers",
+            "description": "Come explore the way reacting to Connor the Waffle's Power Ranger Recap videos has become a community building experience.",
+            "participants": "Kaine Knight, Zeus Mythos, Roy Chiato",
+            "moderator": "Connor thw Waffle"
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "2:00 PM - 3:00 PM",
+            "panel": "Boom and the Massive Verse",
+            "description": "What's the future of Boom Comics look like? Join three of the writers for an in-depth panel.",
+            "participants": "Melissa Flores, Ryan Parrott, Kyle Higgins",
+            "moderator": "Off the Cuff Tom"
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "3:00 PM - 5:00 PM",
+            "panel": "The Johnny Yong Bosch and Jason Narvy Panel",
+            "description": "At this panel, you will get an exclusive look at a few of their short films and hear all about their latest projects straight from the source. These days they are busy making waves in the film industry with their new production company, VOX ROCKET STUDIO. Plus, do not miss a sneak peek at their upcoming feature film, Spades - which because they are overachievers also comes with its very own comic book! There will bring PRIZES and FREE GIVEAWAYS!",
+            "participants": "Johnny Yong Bosch, Jason Narvy",
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "5:00 PM - 8:00 PM",
+            "panel": "Surf Ninjas Panel & Screening",
+            "description": "A 30th anniversary panel followed by a screening of the filom.",
+            "participants": "Ernie Reyes Jr., Nic Cowan, Ernie Reyes Sr., Neal Israel",
+            "moderator": "Brandon J. Benfield"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "10:00 AM - 11:00 AM",
+            "panel": "MMPR Once & Always",
+            "description": "Join the cast as they talk about this special that is celebrating 30 years of MMPR.",
+            "participants": "Karan Ashley, Johnny Yong Bosch, Catherine Sutherland, Walter Jones, Charflie Kersch", 
+            "moderator": "Clayton Thomas"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "11:00 AM - 12:00 PM",
+            "panel": "15 Years of RPM",
+            "description": "Get in Gear for this high-octane panel.",
+            "participants": "Eka Darville, Dan Ewing, Milo Cawthrone, Mike Ginn, Li-Ming Hu, Adelaide Kane", 
+            "moderator": "Realm Aquino"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "12:00 PM - 1:00 PM",
+            "panel": "Power Rangers Unworthy / Bloodline of the Grid",
+            "description": "These two have joined forces to being a panel discussion, Q & A and exclusive footage presentation to fans.",
+            "participants": "Christopher Khayman Lee, Jourdan Barnett, DJ Rivers, Justin Nimmo, Patrick David, BeautifulDiz, Eric Fuchs, John Tieng, Roger Velasco", 
+            "moderator": "Colin K. Bass"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "1:00 PM - 1:30 PM",
+            "panel": "Showa Era Toku Actors presented by TokuSpirits",
+            "description": "Come to get to know some of the Super Sentai and Kamen Rider actors of the Showa Era!",
+            "participants": "Shiro Izumi, Tetsuo Kurata, Masaru Shishido, Kenta Satou", 
+            "moderator": "Realm Aquino"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "2:00 PM - 3:00 PM",
+            "panel": "Power Rangers Extended Universe",
+            "description": "Join actors from the award-winning 'Power Rangers - Shattered Past' to the fan favorite 'Power Rangers Wild Force' as they talk about their experiences being a Ranger and building the Extended Universe!",
+            "participants": "Colin K. Bass, Jessica Rey, Dade Elza, DJ Rivers, Miranda Turner and maybe a couple surprise guests!", 
+            "moderator": "Jimmy Arias"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "3:00 PM - 4:00 PM",
+            "panel": "ToyWizards / MMPR Toys Live",
+            "description": "Come and chat about toys!",
+            "participants": "Scott Zillner, Rich Mayerik, Bruno and Mia from MMPRToys", 
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "4:00 PM - 5:00 PM",
+            "panel": "Legend of the White Dragon",
+            "description": "Join us for a discussion on the film \"Legend of the White Dragon.\"",
+            "participants": "Aaron Schoenke, Jenna Frank, Ciara Hanna, Jason Faunt", 
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "5:00 PM - 6:00 PM",
+            "panel": "Ultraman Invades Power Morphicon!",
+            "description": "Come and chat with Ultraman actors from the different eras!",
+            "participants": "Christopher Sean, Matt Shipman, Brittany Lauda, Kevin K. Gomez", 
+            "moderator": "Darrel Delfin"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "10:00 AM - 11:00 AM",
+            "panel": "Ancient Warriors",
+            "description": "Come hear from the cast and creators of Ancient Warriors: Legacies of Olympus, talking about out experience with voice acting, what it was like going from an audio series to live action and a very exciting announcement.",
+            "participants": "", 
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "11:00 AM - 12:00 PM",
+            "panel": "Evil Enchantresses",
+            "description": "All of the bad girls in one place.",
+            "participants": "Barbara Goodson, Carla Perez, Sabrina Lu, Vicki Davis, Hilary Shepard, Sin Wong, Liana Ramirez, Torum Heng, Wendee Lee, Amy Rolle", 
+            "moderator": "Neil Kaplan"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "12:00 PM - 1:00 PM",
+            "panel": "Wild Force: The New Frontier (Fan Series)",
+            "description": "Come see the new frontier of Wild Force and hear the origins of this fan series.",
+            "participants": "Logan Cothran, Stickasaurus Rex", 
+            "moderator": "Joey Barnes"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "1:00 PM - 2:00 PM",
+            "panel": "Dangerous Zombies",
+            "description": "Join Dangerous Riders and Zelqium as they premiere their latest Taisen, \"Blood Hunters - Dawn of Shadows.\"",
+            "participants": "Arma, Danger, Ichigo", 
+            "moderator": "Shoni"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "2:00 PM - 3:00 PM",
+            "panel": "Power Rangers Rail Riders: Fans Adapting Tokusatsu",
+            "description": "Discussing the history and production process of creating fan-adapted Power Rangers. Including the hit series Power Rangers Rail Riders, Gem Paladins and the upcoming Beast Hunters.",
+            "participants": "Justin Blake Webber, Zack Davis, Kitsukami Cosplay, Mark Cooper, Todd Walsh, Grace Leonardi", 
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "3:00 PM - 4:00 PM",
+            "panel": "We the Geeks",
+            "description": "Join Danny and the geeks as he shows the epic finale to Galactic Chronicles",
+            "participants": "Danny Castellanos, Daniel Prime, Ryu Cloud", 
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "4:00 PM - 5:00 PM",
+            "panel": "The Power Morphicon Cosplay Contest",
+            "description": "Presented by Nerd Mafia",
+            "participants": "YOU! (Sign up at the Nerd Mafia Group)", 
+            "moderator": "Nerd Mafia"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "5:00 PM - 6:00 PM",
+            "panel": "Prop-Making and Production Design for Industry and Fan Films",
+            "description": "A masterclass in prop-making for fan films as well as for the film industry.",
+            "participants": "Daniel Prime, Danny Castellasnos and James McGee-Moore", 
+            "moderator": "Jezzer Zeus"
+         }
+      ]
+   },
+   {
+      "day": "Sunday",
+      "panels": [
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "11:00 AM - 12:00 PM",
+            "panel": "Spectacular 6th",
+            "description": "Come Explore the rich history of the extra rangers we all love.",
+            "participants": "Rhett Fisher, Jason Chan, John Tui, Mike Ginn, Li-Ming Hu, Nikolai Nikolaeff, David De Lautour, Justin Nimmo, Davi Santos, Claire Blackwelder, Jacqueline Joe, Jordon Fite, Dwayne Cameron",
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "12:00 PM - 1:00 PM",
+            "panel": "Diversity in Power Rangers",
+            "description": "Diversity Through Ranger History has given many the ability to finally see themselves saving the world. Representation in media has always been important and the representation in Power Rangers has real world applications. Join us we we discuss with these Rangers on their experience being apart of the show and its legacy.",
+            "participants": "Peter Sudarso, Jack Guzman, Firass Dirani, Liana Ramirez",
+            "moderator": "Chad Jones"
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "1:00 PM - 2:00 PM",
+            "panel": "Pink is Powerful",
+            "description": "Can there be really too much Pink Energy?",
+            "participants": "Angie Diaz, Vicki Davis, Aly Armstrong, Jessica Rey, Christina Masterson",
+            "moderator": "Mintbari"
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "2:00 PM - 3:00 PM",
+            "panel": "Shades of Blue, Green and Black",
+            "description": "Come and hear stories spanning 30 years.",
+            "participants": "Selwyn Ward, Roger Velasco, Keith Robinson, Kevin Kleinberg, Kevin Duhaney, Milo Cawthorne, Dan Ewing",
+            "moderator": "Christian Antwan"
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "3:00 PM - 4:00 PM",
+            "panel": "Yell for the Yellows",
+            "description": "Exploring the power that is Yellow Rangers.",
+            "participants": "Karan Ashley, Nakia Burrise, Alyson Kiperman, Deb Philips, Caitlin Murphy, Ciara Hanna, Jacqueline Scislowski",
+            "moderator": "Ricardo Camarillo"
+         },
+         {
+            "room": "Panel Room A (Ballroom B/C)",
+            "time": "4:00 PM - 5:00 PM",
+            "panel": "Power Rangers Beast Morphers",
+            "description": "The 5th year anniversary of Beast Morphers!",
+            "participants": "Rorrie D. Travis, Jazz Baduwalia, Jacqueline Scislowski, Abraham Rodriguez, Reid McGowan, Liana Ramirez, Colby Strong",
+            "moderator": "Mike Manos"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "11:00 AM - 12:00 PM",
+            "panel": "Megaforce Turns 10",
+            "description": "Celebrating 10 years of Power Rangers Megaforce.",
+            "participants": "Andrew Gray, Ciara Hanna, Christina Masterson, John Mark Loudermilk, Cameron Jebo",
+            "moderator": "Steven Zurita"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "12:00 PM - 1:00 PM",
+            "panel": "Reds Across Time",
+            "description": "30 years of Reds in one amazing panel.",
+            "participants": "David Bacon, Patrick David, Jason Faunt, Dan Southworth, Adam Tuominen, Brandon Jay McLaren, Firass Dirani, Brennan Mejia, Rorrie D. Travis, Hunter Deno",
+            "moderator": "Philipee and James"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "1:00 PM - 2:00 PM",
+            "panel": "Wild Force",
+            "description": "The animal spirits have awoken for thies panel that will never give up!",
+            "participants": "Jack Guzman, Alyson Kiperman, Jessica Rey, Ann Marie Crouch, Richard Cansino, Sin Wong",
+            "moderator": "Logan"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "2:00 PM - 2:30 PM",
+            "panel": "Heisei Era Toku Actors presented by TokuSpirits",
+            "description": "Come to get to know some of the Super Sentai and Kamen Rider actors of the Heisei Era! Presented by TokuSpirits.",
+            "participants": "Ryota Ozawa, Yui Koike, Masahiro Inoue, Yasuhisa Furuhara",
+            "moderator": "Realm Aquino"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "3:00 PM - 4:00 PM",
+            "panel": "The Power Morphicon Fan Film Contest",
+            "description": "",
+            "participants": "",
+            "moderator": "Steven Zurita, Danny Castellanos, Joey Byrnes"
+         },
+         {
+            "room": "Panel Room B (Ballroom D/E)",
+            "time": "4:00 PM",
+            "panel": "Power Morphicon Closing Ceremony",
+            "description": "Join us as we close our 2024 event with a celebration!",
+            "participants": "",
+            "moderator": "Bex, Joey and the PMC Staff"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "11:00 AM - 12:00 PM",
+            "panel": "Stunt Panel: Women in Media",
+            "description": "A panel dedicated to women in stunts.",
+            "participants": "Tema Staig, Michelle Lee, Danny Wayne and Alice Ford",
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "12:00 PM - 1:00 PM",
+            "panel": "Mentors",
+            "description": "Join us as we learn what it takes to lead a team of Rangers.",
+            "participants": "David Fielding, Anne Marie Crouch, Geoffrey Dolan",
+            "moderator": "Joey Barnes"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "1:00 PM - 2:00 PM",
+            "panel": "Autism Speaks",
+            "description": "",
+            "participants": "Tracy Lynn Cruz and Autism Speaks",
+            "moderator": ""
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "2:00 PM - 3:00 PM",
+            "panel": "Comedic Relief",
+            "description": "Come see the funnier side of Rangers with the oens who make us laugh!",
+            "participants": "Jason Narvy, Barnie Duncan, Kelson Henderson, Victoria Abbott",
+            "moderator": "Mike Manos"
+         },
+         {
+            "room": "Panel Room C (Ballroom E/F)",
+            "time": "3:00 PM - 4:00 PM",
+            "panel": "Your Own Power Rangers Team Live!",
+            "description": "Part DND, Part Improv, all chaos!!",
+            "participants": "Kezza Henshin, Thomasjujube, Marcosatsu",
+            "moderator": ""
+         }
+      ]
+   }   
+ ]
