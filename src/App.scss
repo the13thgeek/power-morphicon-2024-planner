@@ -94,3 +94,17 @@ table.pmcPanel {
     font-size: 13px;
   }
 }
+
+@media (max-width: 768px) {
+  
+table.pmcPanel {
+  margin: 0;
+}
+
+.content-body {
+  .content-box {
+    width: 100%;
+  }
+}
+
+}
