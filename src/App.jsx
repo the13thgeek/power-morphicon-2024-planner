@@ -67,7 +67,7 @@ const App = () => {
                   </td>
                   <td>
                     <h3>{panel.panel}</h3>
-                    <p>{panel.description}</p>
+                    <p className="description">{panel.description}</p>
                   </td>
                   <td>
                     {panel.participants ? (
