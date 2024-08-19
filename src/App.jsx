@@ -37,8 +37,7 @@ const App = () => {
       <div className="content-box info">
         <h1>Power Morphicon 2024 Planner</h1>
         <p>The schedule for this year's PMC is out! Use the text box below to search for a panel and any matching events will show up in the table below.</p>
-        <p>Powered by: @the13thgeek [ <a href="//twitter.com/the13thgeek" target="_blank">Twitter</a> ] [ <a href="//twitch.tv/the13thgeek" target="_blank">Twitch</a> ] [ <a href="//instagram.com/the13thgeek" target="_blank">Instagram</a> ]<br />
-        Credits: PMC, <a href="//twitter.com/kamenridermeta" target="_blank">@kamenridermeta</a></p>
+        <p>Powered by: @the13thgeek [ <a href="//twitter.com/the13thgeek" target="_blank">Twitter</a> ] [ <a href="//twitch.tv/the13thgeek" target="_blank">Twitch</a> ] [ <a href="//instagram.com/the13thgeek" target="_blank">Instagram</a> ]</p>
       </div>
       <div className="content-box">
         <input className="panelSearcher" type="text" placeholder="Search by panel, room or moderator" value={searchTerm} onChange={handleInputChange} />
