@@ -40,7 +40,7 @@ const App = () => {
         <p>Powered by: @the13thgeek [ <a href="//twitter.com/the13thgeek" target="_blank">Twitter</a> ] [ <a href="//twitch.tv/the13thgeek" target="_blank">Twitch</a> ] [ <a href="//instagram.com/the13thgeek" target="_blank">Instagram</a> ]</p>
       </div>
       <div className="content-box">
-        <input className="panelSearcher" type="text" placeholder="Search by panel, room or moderator" value={searchTerm} onChange={handleInputChange} />
+        <input className="panelSearcher" type="text" placeholder="Search by panel, room or guest name" value={searchTerm} onChange={handleInputChange} />
       </div>
       <div className="content-box results">
         { filteredData.length == 0 ? (<p>No panels matched your search for <b>"{searchTerm}."</b></p>) : "" }      
