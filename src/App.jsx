@@ -42,7 +42,8 @@ const App = () => {
       <div className="content-box">
         <input className="panelSearcher" type="text" placeholder="Search by panel, room or moderator" value={searchTerm} onChange={handleInputChange} />
       </div>
-      <div className="content-box">
+      <div className="content-box results">
+        { filteredData.length == 0 ? (<p>No panels matched your search for <b>"{searchTerm}."</b></p>) : "" }      
         <table className="pmcPanel">
           <tbody>
           {filteredData.map((day, index) => (

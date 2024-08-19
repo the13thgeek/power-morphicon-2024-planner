@@ -18,6 +18,15 @@ body {
     display: flex;
     justify-content: center;
 
+    &.results {
+      flex-direction: column;
+
+      p {
+        text-align: center;
+      }
+      
+    }
+
     &.info {
       flex-direction: column;
       align-items: center;
