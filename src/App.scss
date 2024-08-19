@@ -129,6 +129,12 @@ table.pmcPanel {
   td {
     font-size: 13px;
   }
+
+  th {
+    &.colTime {
+      width: 120px;
+    }
+  }
 }
 
 .content-body {
