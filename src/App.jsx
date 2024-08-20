@@ -13,11 +13,9 @@ const App = () => {
         ...day,
         panels: day.panels.filter(
           (panel) =>
-            panel.panel.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            panel.room.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            panel.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            panel.participants.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            panel.moderator.toLowerCase().includes(searchTerm.toLowerCase())
+            Object.values(panel)
+              .map((value) => value.toLowerCase())
+              .some((element) => element.includes(searchTerm.toLowerCase()))
         ),
       }))
       .filter((day) => day.panels.length > 0);
