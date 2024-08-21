@@ -1,100 +1,38 @@
-import React, { useState, useEffect } from "react";
-import data from "./paneldata.json";
+import React, { useState } from "react";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import pmcLogo from './assets/Power_Morphicon_logo.png';
+import Panels from './components/Panels';
+import PhotoOps from './components/PhotoOps';
+import Footer from './components/Footer';
 import "./App.scss";
 
-const App = () => {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [filteredData, setFilteredData] = useState(data);
-
-  useEffect(() => {
-    const filtered = data
-      .map((day) => ({
-        ...day,
-        panels: day.panels.filter(
-          (panel) =>
-            Object.values(panel)
-              .map((value) => value.toLowerCase())
-              .some((element) => element.includes(searchTerm.toLowerCase()))
-        ),
-      }))
-      .filter((day) => day.panels.length > 0);
-
-    setFilteredData(filtered);
-  }, [searchTerm]);
-
-  const handleInputChange = (e) => {
-    setSearchTerm(e.target.value);
-  };
+const App = () => {  
 
   return (
     <div className="content-body">
-      <div className="content-box">
+      <header className="content-box">
         <img className="logo-pmc" src={pmcLogo} alt="Power Morphicon" />
-      </div>
+      </header>
       <div className="content-box info">
         <h1>Power Morphicon 2024 Planner</h1>
-        <p>The schedule for this year's PMC is out! Use the text box below to search for a panel and any matching events will show up in the table below.</p>
-        <p>Powered by: @the13thgeek [ <a href="//twitter.com/the13thgeek" target="_blank">Twitter</a> ] [ <a href="//twitch.tv/the13thgeek" target="_blank">Twitch</a> ] [ <a href="//instagram.com/the13thgeek" target="_blank">Instagram</a> ]</p>
+        <p>The panel and photo-op schedules for this year's PMC are out! Use the text box below to search for a panel and any matching events will show up in the table below.</p>
+        <p className="disclaimer"><b>Disclaimer:</b> The data displayed on this page is sourced directly from <a href="//officialpowermorphicon.com" target="_blank">Power Morphicon</a>. We do not alter or verify the accuracy of the information provided by PMC. Therefore, we are not responsible for any errors, inaccuracies, or discrepancies in the data. The information is provided "as is," and we recommend verifying details directly with PMC for the most accurate and up-to-date information.</p>
+        <p className="powered">Powered by: @the13thgeek [ <a href="//twitter.com/the13thgeek" target="_blank">Twitter</a> ] [ <a href="//twitch.tv/the13thgeek" target="_blank">Twitch</a> ] [ <a href="//instagram.com/the13thgeek" target="_blank">Instagram</a> ]</p>
       </div>
-      <div className="content-box">
-        <input className="panelSearcher" type="text" placeholder="Search by panel, room or guest name" value={searchTerm} onChange={handleInputChange} />
-      </div>
-      <div className="content-box results">
-        { filteredData.length == 0 ? (<p>No panels matched your search for <b>"{searchTerm}."</b></p>) : "" }      
-        <table className="pmcPanel">
-          <tbody>
-          {filteredData.map((day, index) => (
-            <>
-              <tr key={index}>
-                <th colSpan={3} className="dayHeading">
-                  <h2>{day.day}</h2>
-                </th>
-              </tr>
-              <tr>
-                <th className="colTime">Room / Time</th>
-                <th>Panel</th>
-                <th>Participants</th>
-              </tr>
-              {day.panels.map((panel, idx) => (
-                <tr key={idx}>
-                  <td>
-                    <span className="time">{panel.time}</span>
-                    <br />
-                    <b>{panel.room}</b>
-                  </td>
-                  <td>
-                    <h3>{panel.panel}</h3>
-                    <p className="description">{panel.description}</p>
-                  </td>
-                  <td>
-                    {panel.participants ? (
-                      <>
-                        <b>Participants:</b>
-                        <br />
-                        {panel.participants}
-                        <br />
-                      </>
-                    ) : (
-                      ""
-                    )}
-                    {panel.moderator ? (
-                      <>
-                        <b>Moderator:</b>
-                        <br />
-                        {panel.moderator}
-                      </>
-                    ) : (
-                      ""
-                    )}
-                  </td>
-                </tr>
-              ))}
-            </>
-          ))}
-          </tbody>
-        </table>
-      </div>
+      <Tabs className='tab-content' selectedTabClassName="active">
+        <TabList className='tab-list'>
+          <Tab>Panels</Tab>
+          <Tab>Photo Ops</Tab>
+        </TabList>
+        <TabPanel className="tab-content">
+          <Panels />
+        </TabPanel>
+        <TabPanel className="tab-content">
+          <PhotoOps />
+        </TabPanel>
+      </Tabs>
+      
+      <Footer />
     </div>
   );
 };
