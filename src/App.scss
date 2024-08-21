@@ -79,6 +79,9 @@ img.logo-pmc {
       background: #000;
       border-radius: 8px;
       position: relative;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
 
       &.active {
         background-color: #800;
