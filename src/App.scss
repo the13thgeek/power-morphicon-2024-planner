@@ -13,30 +13,13 @@ body {
   align-items: center;
 
   .content-box {
-    width: 960px;
-    padding: 0 50px;
+    max-width: 960px;
+    padding: 0 20px;
     display: flex;
     justify-content: center;
 
     &.results {
       flex-direction: column;
-
-      p {
-        text-align: center;
-      }
-
-      table.pmcPanel {
-
-        td {
-
-          p.description {
-            text-align: left;
-          }
-
-        }
-
-      }
-
     }
 
     &.info {
@@ -45,6 +28,16 @@ body {
 
       p {
         width: 80%;
+
+        &.powered,
+        &.disclaimer {
+          text-align: center;
+          font-size: 12px;
+        }
+
+        &.disclaimer {
+          text-align: left;
+        }
       }
 
       a {
@@ -68,77 +61,67 @@ img.logo-pmc {
   width: 400px;
 }
 
-input.panelSearcher {
+.tab-content {
+  display: flex;
+  flex-direction: column;
+
+  .tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+
+    li {
+      padding: 15px 30px;
+      cursor: pointer;
+      background: #000;
+      border-radius: 8px;
+      position: relative;
+
+      &.active {
+        background-color: #800;
+        font-weight: 800;
+
+        &:after {
+          content:'';
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -10px;
+          width: 0;
+          height: 0;
+          border-top: solid 10px #800;
+          border-left: solid 10px transparent;
+          border-right: solid 10px transparent;
+      }
+
+      }
+    }
+  }
+
+}
+
+input.panelSearcher,
+input.photoOpSearcher {
   border: #333 2px solid;
   background-color: #000;
   border-radius: 10px;
   padding: 10px 15px;
+  margin-bottom: 20px;
   font-size: 25px;
   font-weight: 400;
   color: #fff;
   width: 75%;
 }
 
-table.pmcPanel {
-  margin: 30px 0;
-  padding: 0;
-  width: 100%;
-  background-color: #800;
 
-  h2, h3 {
-    margin: 0;
-    padding: 0;
-  }
-
-  td {
-    vertical-align: top;
-    background-color: #333;
-    padding: 5px;
-    font-size: 16px;
-
-    p.description {
-      text-align: left;
-    }
-
-  }
-
-  th {
-    text-align: center;
-    font-size: 20px;
-    padding: 5px;
-
-    &.dayHeading {
-      background-color: #000;
-    }
-
-    &.colTime {
-      width: 160px;
-    }
-  }
-
-  .time {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 768px) {
-  
-table.pmcPanel {
-  margin: 0;
-
-  td {
-    font-size: 13px;
-  }
-
-  th {
-    &.colTime {
-      width: 120px;
-    }
-  }
-}
+@media (max-width: 990px) {
 
 .content-body {
   .content-box {
+    min-width: none;
     width: 100%;
 
     h1 {
