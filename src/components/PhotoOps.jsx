@@ -12,7 +12,7 @@ const PhotoOps = () => {
             ...type,
             guests: type.guests.filter((guest) =>
               Object.values(guest)
-                .map((value) => value.toLowerCase())
+                .map((value) => value.toString().toLowerCase())
                 .some((element) => element.includes(searchTerm.toLowerCase()))
             ),
           }))
@@ -37,12 +37,13 @@ const PhotoOps = () => {
                     {filteredData.map((type, index) => (
                         <>
                         <tr key={index}>
-                            <th colSpan={4} className="typeHeading">
+                            <th colSpan={5} className="typeHeading">
                                 <h2>{type.type}</h2>
                             </th>
                         </tr>
                         <tr key={index+'B'}>
                             <th>Guest/Group</th>
+                            <th>Rate</th>
                             <th>Fri</th>
                             <th>Sat</th>
                             <th>Sun</th>
@@ -59,6 +60,11 @@ const PhotoOps = () => {
                                         <h3>{ guest.name }</h3>
                                     )}
                                 </td>
+                                { guest.rate ? (
+                                    <td className="rate">$ {guest.rate}</td>
+                                ) : (
+                                    <td className="no-data">?</td>
+                                ) }
                                 { guest.fri ? (
                                     <td className="photoop-time">{guest.fri}</td>
                                 ) : (

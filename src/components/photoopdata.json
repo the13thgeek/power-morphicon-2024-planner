@@ -6,559 +6,687 @@
                 "name": "Abraham Rodriguez",
                 "fri": "5:40 PM",
                 "sat": "12:35 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 65
             },
             {
                 "name": "Adam Tuominem",
                 "fri": "7:10 PM",
                 "sat": "11:15 AM",
-                "sun": ""
+                "sun": "",
+                "rate": 85
             },
             {
                 "name": "Adelaide Kane",
                 "fri": "",
                 "sat": "4:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 55
             },
             {
                 "name": "Aljin Abella",
                 "fri": "",
                 "sat": "12:55 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 65
             },
             {
                 "name": "Alyson Kiperman",
                 "fri": "",
                 "sat": "11:35 AM",
-                "sun": "12:25 PM"
+                "sun": "12:25 PM",
+                "rate": 65
             },
             {
                 "name": "Amy Rolle",
                 "fri": "",
                 "sat": "3:05 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Andrew Gray",
                 "fri": "7:00 PM",
                 "sat": "1:55 PM",
-                "sun": "2:50 PM"
+                "sun": "2:50 PM",
+                "rate": 105
             },
             {
                 "name": "Angie Diaz",
                 "fri": "6:05 PM",
                 "sat": "1:35 PM",
-                "sun": "1:10 PM"
+                "sun": "1:10 PM",
+                "rate": 65
             },
             {
                 "name": "Ann Marie Crouch",
                 "fri": "4:15 PM",
                 "sat": "11:35 AM",
-                "sun": "12:25 PM"
+                "sun": "12:25 PM",
+                "rate": 75
             },
             {
                 "name": "Anna Hutchinson",
                 "fri": "",
                 "sat": "12:55 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 65
             },
             {
                 "name": "Austin St. John",
                 "fri": "",
                 "sat": "4:00 PM",
-                "sun": "2:20 PM"
+                "sun": "2:20 PM",
+                "rate": 125
             },
             {
                 "name": "Barbara Goodson",
                 "fri": "",
                 "sat": "3:05 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 85
             },
             {
                 "name": "Barnie Duncan",
                 "fri": "6:05 PM",
                 "sat": "1:15 PM",
-                "sun": "12:55 PM"
+                "sun": "12:55 PM",
+                "rate": 65
             },
             {
                 "name": "Bede Skinner",
                 "fri": "7:15 PM",
                 "sat": "12:55 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 65
             },
             {
                 "name": "Brennan Mejia",
                 "fri": "6:40 PM",
                 "sat": "11:55 AM",
-                "sun": "1:55 PM"
+                "sun": "1:55 PM",
+                "rate": 75
             },
             {
                 "name": "Cameron Jebo",
                 "fri": "7:00 PM",
                 "sat": "1:55 PM",
-                "sun": "2:50 PM"
+                "sun": "2:50 PM",
+                "rate": 65
             },
             {
                 "name": "Campbell Cooley",
                 "fri": "5:40 PM",
                 "sat": "12:35 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 65
             },
             {
                 "name": "Catherine Sutherland",
                 "fri": "5:10 PM",
                 "sat": "4:30 PM",
-                "sun": "2:15 PM"
+                "sun": "2:15 PM",
+                "rate": 85
+            },
+            {
+                "name": "Cerina Vincent",
+                "fri": "4:45 PM",
+                "sat": "4:40 PM",
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Chance Perez",
                 "fri": "",
                 "sat": "12:15 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 65
             },
             {
                 "name": "Christina Masterson",
                 "fri": "7:00 PM",
                 "sat": "1:55 PM",
-                "sun": "2:50 PM"
+                "sun": "2:50 PM",
+                "rate": 65
             },
             {
                 "name": "Ciara Hanna",
                 "fri": "7:00 PM",
                 "sat": "1:55 PM",
-                "sun": "2:50 PM"
+                "sun": "2:50 PM",
+                "rate": 65
             },
             {
                 "name": "Claire Blackwelder",
                 "fri": "6:40 PM",
                 "sat": "11:55 AM",
-                "sun": ""
+                "sun": "",
+                "rate": 75
             },
             {
                 "name": "Colby Strong",
                 "fri": "5:40 PM",
                 "sat": "12:35 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 65
             },
             {
                 "name": "Dan Ewing",
                 "fri": "",
                 "sat": "4:20 PM",
-                "sun": "3:10 PM"
+                "sun": "3:10 PM",
+                "rate": 75
             },
             {
                 "name": "Dan Southworth",
                 "fri": "",
                 "sat": "2:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 85
             },
             {
                 "name": "Davi Santos",
                 "fri": "6:40 PM",
                 "sat": "11:55 AM",
-                "sun": ""
+                "sun": "1:55 PM",
+                "rate": 65
             },
             {
                 "name": "David Bacon",
                 "fri": "5:00 PM",
                 "sat": "",
-                "sun": ""
+                "sun": "",
+                "rate": 65
+            },
+            {
+                "name": "David De Latour",
+                "fri": "",
+                "sat": "12:55 PM",
+                "sun": "12:40 PM",
+                "rate": 65
             },
             {
                 "name": "Deborah Estelle Philips",
                 "fri": "",
                 "sat": "2:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 85
             },
             {
                 "name": "Dwayne Cameron",
                 "fri": "",
                 "sat": "3:05 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 85
             },
             {
                 "name": "Eka Darville",
                 "fri": "",
                 "sat": "4:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 75
             },
             {
                 "name": "Erin Cahill",
                 "fri": "6:20 PM",
                 "sat": "2:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 85
             },
             {
                 "name": "Firass Dirani",
                 "fri": "6:05 PM",
                 "sat": "1:35 PM",
-                "sun": "1:10 PM"
+                "sun": "1:10 PM",
+                "rate": 65
             },
             {
                 "name": "Furuhara Yasuhisa",
                 "fri": "",
                 "sat": "5:00 PM",
-                "sun": "4:00 PM"
+                "sun": "4:00 PM",
+                "rate": 135
             },
             {
                 "name": "Geoff Dolan",
                 "fri": "6:05 PM",
                 "sat": "1:35 PM",
-                "sun": "1:10 PM"
+                "sun": "1:10 PM",
+                "rate": 65
             },
             {
                 "name": "Hilary Shepard",
                 "fri": "4:35 PM",
                 "sat": "",
-                "sun": ""
+                "sun": "",
+                "rate": 85
             },
             {
                 "name": "Holly Shanahan",
                 "fri": "4:35 PM",
                 "sat": "12:55 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 65
             },
             {
                 "name": "Hunter Deno",
                 "fri": "4:25 PM",
                 "sat": "12:15 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 65
             },
             {
                 "name": "Jack Guzman",
                 "fri": "",
                 "sat": "11:35 AM",
-                "sun": "12:25 PM"
+                "sun": "12:25 PM",
+                "rate": 65
             },
             {
                 "name": "Jacqueline Scislowski",
                 "fri": "5:40 PM",
                 "sat": "12:35 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 75
             },
             {
                 "name": "Jacqueline Joe",
                 "fri": "4:25 PM",
                 "sat": "12:15 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 65
             },
             {
                 "name": "James Davies",
                 "fri": "6:40 PM",
                 "sat": "11:55 AM",
-                "sun": ""
+                "sun": "",
+                "rate": 75
+            },
+            {
+                "name": "Jason Chan",
+                "fri": "",
+                "sat": "12:55 PM",
+                "sun": "12:40 PM",
+                "rate": 65
             },
             {
                 "name": "Jason Faunt",
                 "fri": "",
                 "sat": "2:20 PM",
-                "sun": "3:10 PM"
+                "sun": "3:10 PM",
+                "rate": 85
             },
             {
                 "name": "Jazz Baduwalia",
                 "fri": "5:40 PM",
                 "sat": "12:35 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 65
             },
             {
                 "name": "Jeff Parazzo",
                 "fri": "",
                 "sat": "10:55 AM",
-                "sun": "3:40 PM"
+                "sun": "3:40 PM",
+                "rate": 65
             },
             {
                 "name": "Jessica Rey",
                 "fri": "4:45 PM",
                 "sat": "11:35 AM",
-                "sun": "12:25 PM"
+                "sun": "12:25 PM",
+                "rate": 75
             },
             {
                 "name": "John Mark Loudermilk",
                 "fri": "7:00 PM",
                 "sat": "1:55 PM",
-                "sun": "2:50 PM"
+                "sun": "2:50 PM",
+                "rate": 65
             },
             {
                 "name": "John Tui",
                 "fri": "6:05 PM",
                 "sat": "1:15 PM",
-                "sun": "12:55 PM"
+                "sun": "12:55 PM",
+                "rate": 75
             },
             {
                 "name": "Johnny Yong Bosch",
                 "fri": "",
                 "sat": "2:40 PM",
-                "sun": "2:15 PM"
+                "sun": "2:15 PM",
+                "rate": 85
             },
             {
                 "name": "Jordon Fite",
                 "fri": "",
                 "sat": "12:15 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 65
             },
             {
                 "name": "Justin Nimmo",
                 "fri": "",
                 "sat": "3:40 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 75
             },
             {
                 "name": "Justin Timsit",
                 "fri": "",
                 "sat": "10:35 AM",
-                "sun": "2:35 PM"
+                "sun": "2:35 PM",
+                "rate": 65
             },
             {
                 "name": "Kai Moya",
                 "fri": "",
                 "sat": "12:15 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Karan Ashley",
                 "fri": "5:00 PM",
                 "sat": "2:40 PM",
-                "sun": "3:10 PM"
+                "sun": "3:10 PM",
+                "rate": 85
             },
             {
                 "name": "Katrina Browne",
                 "fri": "4:45 PM",
                 "sat": "11:15 AM",
-                "sun": ""
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Katrina Devine",
                 "fri": "4:15 PM",
                 "sat": "10:55 AM",
-                "sun": "3:40 PM"
+                "sun": "3:40 PM",
+                "rate": 65
             },
             {
                 "name": "Keith Robinson",
                 "fri": "",
                 "sat": "",
-                "sun": "12:05 PM"
+                "sun": "12:05 PM",
+                "rate": 75
             },
             {
                 "name": "Kelson Henderson",
                 "fri": "5:40 PM",
                 "sat": "1:35 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 65
             },
             {
                 "name": "Kenta Satou",
                 "fri": "",
                 "sat": "6:00 PM",
-                "sun": ""
+                "sun": "5:00 PM",
+                "rate": 135
             },
             {
                 "name": "Kevin Duhaney",
                 "fri": "",
                 "sat": "10:55 AM",
-                "sun": "3:40 PM"
+                "sun": "3:40 PM",
+                "rate": 65
             },
             {
                 "name": "Kevin Kleinberg",
                 "fri": "",
                 "sat": "2:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 85
             },
             {
                 "name": "Lasean Davis",
                 "fri": "",
                 "sat": "10:35 AM",
-                "sun": "2:35 PM"
+                "sun": "2:35 PM",
+                "rate": 65
             },
             {
                 "name": "Li-Ming Hu",
                 "fri": "",
                 "sat": "4:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Liana Ramirez",
                 "fri": "5:40 PM",
                 "sat": "12:35 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 65
             },
             {
                 "name": "Masahiro Inoue",
                 "fri": "",
                 "sat": "5:20 PM",
-                "sun": ""
+                "sun": "4:20 PM",
+                "rate": 135
             },
             {
                 "name": "Masaru Shishido",
                 "fri": "",
                 "sat": "5:50 PM",
-                "sun": ""
+                "sun": "4:50 PM",
+                "rate": 135
             },
             {
                 "name": "Michael R. Gotto",
                 "fri": "",
                 "sat": "10:35 AM",
-                "sun": "2:35 PM"
+                "sun": "2:35 PM",
+                "rate": 65
             },
             {
-                "name": "Michael Langstone",
+                "name": "Michelle Langstone",
                 "fri": "",
                 "sat": "12:55 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 65
+            },
+            {
+                "name": "Mike Ginn",
+                "fri": "",
+                "sat": "4:20 PM",
+                "sun": "",
+                "rate": 75
             },
             {
                 "name": "Mike Edward",
                 "fri": "",
                 "sat": "3:40 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Milo Cawthorne",
                 "fri": "7:20 PM",
                 "sat": "4:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Nakia Burrise",
                 "fri": "5:10 PM",
                 "sat": "4:30 PM",
-                "sun": "2:15 PM"
+                "sun": "2:15 PM",
+                "rate": 85
             },
             {
                 "name": "Nikolai Nikoleff",
                 "fri": "",
                 "sat": "12:55 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 0
             },
             {
                 "name": "Oliver Driver",
                 "fri": "",
                 "sat": "12:55 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 65
             },
             {
                 "name": "Paul Gittins",
                 "fri": "",
                 "sat": "12:55 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 65
             },
             {
                 "name": "Reid McGowan",
                 "fri": "",
                 "sat": "12:35 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 65
             },
             {
                 "name": "Reuben Turner",
                 "fri": "",
                 "sat": "11:55 AM",
-                "sun": ""
+                "sun": "1:55 PM",
+                "rate": 65
             },
             {
                 "name": "Rhett Fisher",
                 "fri": "",
                 "sat": "",
-                "sun": "12:05 PM"
+                "sun": "12:05 PM",
+                "rate": 65
             },
             {
                 "name": "Richard Brancatisano",
                 "fri": "6:05 PM",
                 "sat": "1:35 PM",
-                "sun": "1:10 PM"
+                "sun": "1:10 PM",
+                "rate": 65
             },
             {
                 "name": "Romy J. Sharf",
                 "fri": "",
                 "sat": "4:40 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 55
             },
             {
                 "name": "Rorrie D. Travis",
                 "fri": "5:40 PM",
                 "sat": "12:35 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 65
             },
             {
                 "name": "Russell Curry",
                 "fri": "7:15 PM",
                 "sat": "12:15 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 110
             },
             {
                 "name": "Ryan Carter",
                 "fri": "6:40 PM",
                 "sat": "11:55 AM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 65
             },
             {
                 "name": "Ryota Ozawa",
                 "fri": "",
                 "sat": "5:10 PM",
-                "sun": ""
+                "sun": "4:10 PM",
+                "rate": 135
             },
             {
                 "name": "Sabrina Lu",
                 "fri": "",
                 "sat": "",
-                "sun": "11:45 AM"
+                "sun": "11:45 AM",
+                "rate": 65
+            },
+            {
+                "name": "Sarah Thomson",
+                "fri": "7:45 PM",
+                "sat": "",
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Sasha Williams Craig",
                 "fri": "",
                 "sat": "3:50 PM",
-                "sun": "12:05 PM"
+                "sun": "12:05 PM",
+                "rate": 65
             },
             {
                 "name": "Shiro Izumi",
                 "fri": "",
                 "sat": "5:40 PM",
-                "sun": ""
+                "sun": "4:40 PM",
+                "rate": 135
             },
             {
                 "name": "Steve Cardenas",
                 "fri": "",
                 "sat": "2:40 PM",
-                "sun": "2:20 PM"
+                "sun": "2:20 PM",
+                "rate": 85
             },
             {
                 "name": "Tessa Rao",
                 "fri": "",
                 "sat": "12:15 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 65
             },
             {
                 "name": "Tetso Kurata",
                 "fri": "",
                 "sat": "5:30 PM",
-                "sun": ""
+                "sun": "4:30 PM",
+                "rate": 135
             },
             {
                 "name": "Torum Heng",
                 "fri": "4:15 PM",
                 "sat": "",
-                "sun": ""
+                "sun": "",
+                "rate": 65
             },
             {
                 "name": "Vicki Davis",
                 "fri": "7:10 PM",
                 "sat": "",
-                "sun": ""
+                "sun": "",
+                "rate": 0
             },
             {
                 "name": "Victoria Abbott",
                 "fri": "",
                 "sat": "12:15 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 65
             },
             {
                 "name": "Walter Jones",
                 "fri": "",
                 "sat": "4:00 PM",
-                "sun": "3:25 PM"
+                "sun": "3:25 PM",
+                "rate": 85
             },
             {
                 "name": "Yui Koike",
                 "fri": "",
                 "sat": "5:00 PM",
-                "sun": ""
+                "sun": "4:00 PM",
+                "rate": 135
             }
         ]
     },
@@ -569,67 +697,78 @@
                 "name": "Amy Rolle",
                 "fri": "7:25 PM",
                 "sat": "",
-                "sun": "11:15 AM"
+                "sun": "11:15 AM",
+                "rate": 105
             },
             {
                 "name": "Brennan Mejia",
                 "fri": "",
                 "sat": "3:20 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 105
             },
             {
                 "name": "Chance Perez",
                 "fri": "7:50 PM",
                 "sat": "",
-                "sun": "11:40 AM"
+                "sun": "11:40 AM",
+                "rate": 105
             },
             {
                 "name": "Hunter Deno",
-                "fri": "7:45 PM",
+                "fri": "",
                 "sat": "",
-                "sun": "11:35 AM"
+                "sun": "11:35 AM",
+                "rate": 105
             },
             {
                 "name": "Jason Faunt",
                 "fri": "",
                 "sat": "3:30 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 155
             },
             {
                 "name": "Jessica Rey",
                 "fri": "",
                 "sat": "3:50 PM",
-                "sun": "11:25 AM"
+                "sun": "11:25 AM",
+                "rate": 105
             },
             {
                 "name": "Johnny Yong Bosch",
                 "fri": "",
                 "sat": "2:50 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 155
             },
             {
                 "name": "Jordon Fite",
                 "fri": "7:35 PM",
                 "sat": "",
-                "sun": "11:25 AM"
+                "sun": "11:25 AM",
+                "rate": 105
             },
             {
                 "name": "Sabrina Lu",
                 "fri": "7:40 PM",
                 "sat": "",
-                "sun": "11:30 AM"
+                "sun": "11:30 AM",
+                "rate": 85
             },
             {
                 "name": "Sasha Williams Craig",
                 "fri": "7:55 PM",
                 "sat": "",
-                "sun": "11:45 AM"
+                "sun": "11:45 AM",
+                "rate": 105
             },
             {
                 "name": "Tessa Rao",
                 "fri": "7:30 PM",
                 "sat": "",
-                "sun": "11:20 AM"
+                "sun": "11:20 AM",
+                "rate": 105
             }
         ]
     },
@@ -641,133 +780,200 @@
                 "name": "Rorrie D. Travis, Jazz Baduwalia, Jacqueline Scislowski, Abraham Rodriguez, Reid McGowan, Liana Ramirez, Colby Strong, Campbell Cooley, Kelson Henderson",
                 "fri": "5:40 PM",
                 "sat": "12:30 PM",
-                "sun": "1:25 PM"
+                "sun": "1:25 PM",
+                "rate": 395
             },
             {
                 "group_name": "",
                 "name": "Campbell Cooley & Torum Heng Duo",
                 "fri": "",
                 "sat": "12:15 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 125
             },
             {
                 "group_name": "Devil May Cry",
                 "name": "Johnny Yong Bosch, Dan Southworth & Reuben Langdon",
                 "fri": "",
                 "sat": "2:30 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 215
             },
             {
                 "group_name": "Dino Charge Cast",
                 "name": "Brennan Mejia, James Davies, Reuben Turner, Ryan Carter, Claire Blackwelder, Davi Santos",
                 "fri": "6:35 PM",
                 "sat": "11:50 AM",
-                "sun": "1:55 PM"
+                "sun": "1:55 PM",
+                "rate": 305
             },
             {
                 "group_name": "Dino Fury/Cosmic Fury Cast",
                 "name": "Russell Curry, Kai Moya (Sat only), Chance Perez, Tessa Rao, Hunter Deno, Jordon Fite, Jacqueline Joe, Ryan Carter, Kelson Henderson, Victoria Abbott, Campbell Cooley, Torum Heng",
                 "fri": "",
                 "sat": "12:10 PM",
-                "sun": "1:40 PM"
+                "sun": "1:40 PM",
+                "rate": 515
             },
             {
                 "group_name": "Dino Thunder Cast",
                 "name": "Kevin Duhaney, Jeff Parazzo, Katrina Devine",
                 "fri": "",
                 "sat": "10:50 AM",
-                "sun": "3:40 PM"
+                "sun": "3:40 PM",
+                "rate": 155
             },
             {
-                "group_name": "Time Force Cast",
+                "group_name": "",
                 "name": "Erin Cahill & Jason Faunt Duo",
                 "fri": "6:20 PM",
                 "sat": "2:10 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 155
             },
             {
                 "group_name": "Jungle Fury Cast",
                 "name": "Aljin Abella, Anna Hutchinson, David De Lautour, Nikolai Nikoleff, Bede Skinner, Holly Shanahan, Oliver Driver, Paul Gittins, Michelle Langstone, Kelson Henderson",
                 "fri": "",
                 "sat": "12:50 PM",
-                "sun": "12:40 PM"
+                "sun": "12:40 PM",
+                "rate": 475
             },
             {
                 "group_name": "Lightspeed Rescue Cast",
                 "name": "Rhett Fisher, Sasha Craig, Keith Robinson",
                 "fri": "",
                 "sat": "",
-                "sun": "12:05 PM"
+                "sun": "12:05 PM",
+                "rate": 165
             },
             {
                 "group_name": "",
                 "name": "Masahiro Inoue & Tetsuo Kurata",
                 "fri": "",
                 "sat": "5:25 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 255
             },
             {
                 "group_name": "MMPR Movie Cast",
                 "name": "Karan Ashley, Johnny Yong Bosch, Steve Cardenas, Paul Freeman, Jason Narvy",
                 "fri": "",
                 "sat": "2:35 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 345
             },
             {
                 "group_name": "Mystic Force Cast",
                 "name": "John Tui, Firass Dirani, Angie Diaz, Richard Brancatisano, Barnie Duncan, Geoffrey Dolan, Kelson Henderson",
                 "fri": "6:00 PM",
                 "sat": "1:30 PM",
-                "sun": "1:10 PM"
+                "sun": "1:10 PM",
+                "rate": 325
             },
             {
                 "group_name": "Ninja Storm Cast",
                 "name": "Jason Chan, Adam Tuominen, Jorgito Vargas Jr, Kat Browne, Katrina Devine",
                 "fri": "",
                 "sat": "11:10 AM",
-                "sun": ""
+                "sun": "",
+                "rate": 265
             },
             {
                 "group_name": "RPM Cast",
                 "name": "Eka Darville, Dan Ewing, Adelaide Kane, Milo Cawthorne & Li-Ming Hu",
                 "fri": "",
                 "sat": "4:15 PM",
-                "sun": ""
+                "sun": "",
+                "rate": 295
             },
             {
                 "group_name": "",
                 "name": "Ryota Ozawa & Masahiro Inoue",
                 "fri": "",
                 "sat": "5:15 PM",
-                "sun": ""
+                "sun": "4:15 PM",
+                "rate": 255
             },
             {
                 "group_name": "",
                 "name": "Ryota Ozawa & Yui Koike",
                 "fri": "",
                 "sat": "5:05 PM",
-                "sun": ""
+                "sun": "4:05 PM",
+                "rate": 255
             },
             {
                 "group_name": "SPD Cast",
                 "name": "John Tui, Michelle Langstone, Aly Armstrong, Barnie Duncan, Kelson Henderson",
                 "fri": "",
                 "sat": "1:10 PM",
-                "sun": "12:55 PM"
+                "sun": "12:55 PM",
+                "rate": 245
             },
             {
                 "group_name": "",
                 "name": "Shiro Izumi & Kenta Satou",
                 "fri": "",
                 "sat": "5:55 PM",
-                "sun": ""
+                "sun": "4:55 PM",
+                "rate": 255
             },
             {
                 "group_name": "",
                 "name": "Shiro Izumi & Masaru Shishido",
                 "fri": "",
                 "sat": "5:45 PM",
-                "sun": ""
+                "sun": "4:45 PM",
+                "rate": 255
+            },
+            {
+                "group_name": "Super Megaforce Cast",
+                "name": "Andrew Gray, John Mark Loudermilk, Christina Masterson, Ciara Hanna, Cameron Jebo",
+                "fri": "6:55 PM",
+                "sat": "1:50 PM",
+                "sun": "2:50 PM",
+                "rate": 295
+            },
+            {
+                "group_name": "",
+                "name": "Tetsuo Kurata & Shiro Izumi",
+                "fri": "",
+                "sat": "5:35 PM",
+                "sun": "4:35 PM",
+                "rate": 255
+            },
+            {
+                "group_name": "Time Force Cast",
+                "name": "Jason Faunt, Kevin Kleinberg, Deborah Estelle Philips, Erin Cahill, Dan Southworth",
+                "fri": "",
+                "sat": "2:15 PM",
+                "sun": "",
+                "rate": 335
+            },
+            {
+                "group_name": "Wild Force Cast",
+                "name": "Jack Guzman, Jessica Rey, Alyson Kiperman, Dan Woren & Ann Marie Crouch",
+                "fri": "",
+                "sat": "11:30 AM",
+                "sun": "12:25 PM",
+                "rate": 165
+            },
+            {
+                "group_name": "Young MMPR Rangers",
+                "name": "Michael Gotto, Justin Timsit, Lasean Davis",
+                "fri": "5:20 PM",
+                "sat": "10:30 AM",
+                "sun": "",
+                "rate": 155
+            },
+            {
+                "group_name": "Zeo Cast",
+                "name": "Nakia Burrise, Catherine Sutherland, Johnny Yong Bosch, Steve Cardenas & Austin St. John",
+                "fri": "",
+                "sat": "",
+                "sun": "2:20 PM",
+                "rate": 385
             }
         ]
     }
