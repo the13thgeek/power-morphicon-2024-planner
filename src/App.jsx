@@ -21,7 +21,7 @@ const App = () => {
             <p>Thank you for the fun weekend, everyone! It's been a treat seeing old friends again after two years; and same goes for meeting new ones and creating new experiences with everyone.</p>
             <p>And of course, thank you to everyone who used this page as a handy reference. I apologize not being able to update it in real-time during the event as much as I could; but I hope that this had been helpful in one way or another.</p>
             <p>Until then, may the Power protect you always. ⚡</p>
-            <small>- the13thgeek</small>
+            <small>@the13thgeek</small>
           </div>
         <p>The panel and photo-op schedules for this year's PMC are out! Use the text box below to search for a panel and any matching events will show up in the table below.</p>
         <p className="disclaimer"><b>Last Update:</b> Aug 21, 2024 8:41 PM EST</p>
