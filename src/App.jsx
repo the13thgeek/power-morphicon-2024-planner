@@ -18,6 +18,7 @@ const App = () => {
         <Route exact path="/" element={<PageHome />} />
         <Route exact path="/panels" element={<PagePanels />} />
         <Route exact path="/photo-ops" element={<PagePhotoOps />} />
+        <Route path="*" element={<PageHome />} />
       </Routes>
     </Router>
 
