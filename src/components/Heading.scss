@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: var(--content-padding);
+
+    h1 {
+        color: #fff;
+    }
+
+    a.back-button {
+        display: inline-block;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        flex: 3;
+        color: #fff;
+
+        p {
+            font-size: 14px;
+            color: #ccc;
+        }
+    }
+    .icon {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        flex: 1;
+        color: #fff;
+        opacity: 0.5;
+
+        i {
+            font-size: 80px;
+            padding-right: 0;
+        }
+    }
+}

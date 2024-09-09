@@ -1,0 +1,29 @@
+#home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    img.pmc-logo {
+        width: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    #home {
+        img.pmc-logo {
+            width: 250px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #home {
+        img.pmc-logo {
+            width: 200px;
+        }
+    }
+
+}

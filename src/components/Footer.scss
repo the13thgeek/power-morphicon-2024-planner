@@ -1,12 +1,22 @@
+.disclaimer {
+    cursor: default;
+}
+
 footer {
-    border-top: #666 2px solid;
-    background-color: #000;
-    display: flex;
-    flex: 1;
-    width: 100%;
-    justify-content: center;
+    padding: 30px;
 
     p {
-        margin: 20px 0;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+
+        &.copyright {
+            font-weight: bold;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
+
 }
