@@ -25,6 +25,7 @@ const PagePhotoOps = () => {
         setFilteredData(filtered);
 
         document.title = 'Photo Ops - Power Morphicon Planner';
+        window.scrollTo(0, 0);
       }, [searchTerm]);
 
     const handleInputChange = (e) => {

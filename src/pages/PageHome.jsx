@@ -13,6 +13,7 @@ const PageHome = () => {
 
     useEffect(() => {
         document.title = 'Power Morphicon Planner';
+        window.scrollTo(0, 0);
     }, []);
 
   return (
@@ -20,7 +21,7 @@ const PageHome = () => {
         <Heading>
             <div className='content'>
                 <img src={pmcLogo} alt="Power Morphicon" className='pmc-logo' />
-                <h1>Plan your weekend!</h1>
+                <h1>Plan your PMC weekend!</h1>
                 <p>The panel and photo-op schedules for this year's PMC are out. Use the menu below to browse, search and plan your convention itinerary.</p>
             </div>
             <div className="icon">

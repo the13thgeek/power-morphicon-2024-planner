@@ -26,6 +26,7 @@ const PagePanels = () => {
         setFilteredData(filtered);
 
         document.title = 'Panels - Power Morphicon Planner';
+        window.scrollTo(0, 0);
     }, [searchTerm]);
 
     const handleInputChange = (e) => {
