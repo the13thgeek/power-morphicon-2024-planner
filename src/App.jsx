@@ -15,9 +15,9 @@ const App = () => {
     <Router>
       <Routes>
         <Route index element={<PageHome />} />
-        <Route exact path="/power-morphicon-planner" element={<PageHome />} />
-        <Route exact path="/power-morphicon-planner/panels" element={<PagePanels />} />
-        <Route exact path="/power-morphicon-planner/photo-ops" element={<PagePhotoOps />} />
+        <Route exact path="/" element={<PageHome />} />
+        <Route exact path="/panels" element={<PagePanels />} />
+        <Route exact path="/photo-ops" element={<PagePhotoOps />} />
       </Routes>
     </Router>
 

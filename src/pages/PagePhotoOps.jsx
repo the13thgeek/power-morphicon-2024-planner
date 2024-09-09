@@ -41,7 +41,7 @@ const PagePhotoOps = () => {
                     <i className="fa-solid fa-arrow-left"></i>
                 </a>
                 <h1>Photo Ops</h1>
-                <p>Capture moments with your favorites</p>
+                <p>Strike a pose with your Morphin' heroes</p>
             </div>
             <div className="icon">
                 <i className="fa-solid fa-camera"></i>
@@ -50,7 +50,7 @@ const PagePhotoOps = () => {
         <div className="structure">
             <div className="structure-content">
                 <p className="instruction">
-                    Use the text box below to search for photo ops.
+                    Browse the Photo Ops schedule below or use the text box search for a photo op.
                 </p>
                 <input className="photo-ops-searcher" id="photoOpSearcher" type="text" placeholder="Search by guest or group name" value={searchTerm} onChange={handleInputChange} />
 

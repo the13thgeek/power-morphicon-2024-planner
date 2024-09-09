@@ -41,7 +41,7 @@ const PageHome = () => {
                 <Tile className='module panels' linkTo='panels/'>
                     <div className='content'>
                         <h3>Panels</h3>
-                        <p>Explore fan and expert discussions</p>
+                        <p>Power up with Ranger talks and insights</p>
                         <div className="action">Browse</div>
                     </div>
                     {/* <div className="icon">
@@ -51,7 +51,7 @@ const PageHome = () => {
                 <Tile className='module photo-ops' linkTo='photo-ops/'>
                     <div className='content'>
                         <h3>Photo Ops</h3>
-                        <p>Capture moments with your favorites</p>
+                        <p>Strike a pose with your Morphin' heroes</p>
                         <div className="action">Browse</div>
                     </div>
                     {/* <div className="icon">
@@ -61,7 +61,7 @@ const PageHome = () => {
                 <Tile className='module guests'>
                     <div className='content'>
                         <h3>Guests</h3>
-                        <p>Meet the stars of the Morphing Grid</p>
+                        <p>Meet the legends of the Morphin' Grid</p>
                         <div className="action disabled">Under Construction</div>
                     </div>
                     {/* <div className="icon">
@@ -71,7 +71,7 @@ const PageHome = () => {
                 <Tile className='module exhibitors'>
                     <div className='content'>
                         <h3>Exhibitors & Artists</h3>
-                        <p>Discover exclusive merch and booths</p>
+                        <p>Gear up with exclusive Ranger merch</p>
                         <div className="action disabled">Under Construction</div>
                     </div>
                     {/* <div className="icon">
@@ -81,7 +81,7 @@ const PageHome = () => {
                 <Tile className='module badges'>
                     <div className='content'>
                         <h3>Badges</h3>
-                        <p>Check in or upgrade your experience</p>
+                        <p>Unlock your Command Center credentials</p>
                         <div className="action disabled">Under Construction</div>
                     </div>
                     {/* <div className="icon">

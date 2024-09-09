@@ -42,7 +42,7 @@ const PagePanels = () => {
                     <i className="fa-solid fa-arrow-left"></i>
                 </a>
                 <h1>Panels</h1>
-                <p>Explore fan and expert discussions</p>
+                <p>Power up with Ranger talks and insights</p>
             </div>
             <div className="icon">
                 <i className="fa-solid fa-people-group"></i>
@@ -51,7 +51,7 @@ const PagePanels = () => {
         <div className="structure">
             <div className="structure-content">
                 <p className="instruction">
-                    Use the text box below to search for panels.
+                    Browse the Panels schedule below or use the text box search for a panel.
                 </p>
                 <input className="panel-searcher" id="panelSearcher" type="text" placeholder="Search by panel, room or participant names" value={searchTerm} onChange={handleInputChange} />
 
