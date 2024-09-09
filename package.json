@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.2.0",
   "type": "module",
-  "homepage": "https://the13thgeek.github.io/power-morphicon-2024-planner",
+  "homepage": "https://the13thgeek.github.io/power-morphicon-planner",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
