@@ -1,151 +1,215 @@
-body {
-  background: #333;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
+/* Globals */
+
+
+* {
   margin: 0;
   padding: 0;
 }
 
-.content-body {
+:root {
+  --body-color: #333;
+  --content-radius: 30px;
+  --content-padding: 35px;
+  --content-tile-radius: 20px;
+  //--color-module-panels: #be0201;
+  --color-module-panels: #d94444;
+  --color-module-photo-ops: #3b87e3;
+  --color-module-guests: #28a745;
+  --color-module-exhibitors: #ffc107;
+  --color-module-badges: #d440a6;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  background-color: var(--body-color);
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.structure {  
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   align-items: center;
-
-  .content-box {
-    max-width: 960px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
-
-    &.results {
-      flex-direction: column;
-    }
-
-    &.info {
-      flex-direction: column;
-      align-items: center;
-
-      .thank-you {
-        width: 80%;
-        flex-direction: column;
-        align-items: center;
-        background-color: #040;
-        border: #090 1px solid;
-        border-radius: 10px;
-        padding: 20px 30px;
-
-  
-        p {
-          width: 100%;
-        }
-      }
-
-      p {
-        width: 80%;
-
-        &.powered,
-        &.disclaimer {
-          text-align: center;
-          font-size: 12px;
-        }
-
-        &.disclaimer {
-          text-align: left;
-        }
-      }
-
-      a {
-        color: #ff0;
-        text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-
-    }
-
-    &:first-child {
-      margin-top: 20px;
-    }
-  }
+  //min-height: 100vh; /* centers vertically */
+  box-sizing: border-box;
 }
 
-img.logo-pmc {
-  width: 400px;
-}
-
-.tab-content {
+.structure-content {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  padding: var(--content-padding);
+  background-color: #fff;
+  border-radius: var(--content-radius);
+  margin-bottom: 30px;
+}
 
-  .tab-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    gap: 20px;
-    font-size: 18px;
+@media (max-width: 992px) {
 
-    li {
-      padding: 15px 30px;
-      cursor: pointer;
-      background: #000;
-      border-radius: 8px;
-      position: relative;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-
-      &.active {
-        background-color: #800;
-        font-weight: 800;
-
-        &:after {
-          content:'';
-          position: absolute;
-          top: 100%;
-          left: 50%;
-          margin-left: -10px;
-          width: 0;
-          height: 0;
-          border-top: solid 10px #800;
-          border-left: solid 10px transparent;
-          border-right: solid 10px transparent;
-      }
-
-      }
-    }
+  .structure {
+    width: calc(100% - 60px); /* 30px margin on each side */
+    margin: 0 30px;
   }
 
 }
 
-input.panelSearcher,
-input.photoOpSearcher {
-  border: #333 2px solid;
-  background-color: #000;
-  border-radius: 10px;
-  padding: 10px 15px;
-  margin-bottom: 20px;
-  font-size: 25px;
-  font-weight: 400;
-  color: #fff;
-  width: 75%;
-}
+@media (max-width: 768px) {
 
-
-@media (max-width: 990px) {
-
-.content-body {
-  .content-box {
-    min-width: none;
+  .structure {
     width: 100%;
-
-    h1 {
-      text-align: center;
-    }
+    margin: 0;
   }
-}
 
 }
+
+
+// .content-body {
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+//   align-items: center;
+
+//   .content-box {
+//     max-width: 960px;
+//     padding: 0 20px;
+//     display: flex;
+//     justify-content: center;
+
+//     &.results {
+//       flex-direction: column;
+//     }
+
+//     &.info {
+//       flex-direction: column;
+//       align-items: center;
+
+//       .thank-you {
+//         width: 80%;
+//         flex-direction: column;
+//         align-items: center;
+//         background-color: #040;
+//         border: #090 1px solid;
+//         border-radius: 10px;
+//         padding: 20px 30px;
+
+  
+//         p {
+//           width: 100%;
+//         }
+//       }
+
+//       p {
+//         width: 80%;
+
+//         &.powered,
+//         &.disclaimer {
+//           text-align: center;
+//           font-size: 12px;
+//         }
+
+//         &.disclaimer {
+//           text-align: left;
+//         }
+//       }
+
+//       a {
+//         color: #ff0;
+//         text-decoration: none;
+
+//         &:hover {
+//           text-decoration: underline;
+//         }
+//       }
+
+//     }
+
+//     &:first-child {
+//       margin-top: 20px;
+//     }
+//   }
+// }
+
+// img.logo-pmc {
+//   width: 400px;
+// }
+
+// .tab-content {
+//   display: flex;
+//   flex-direction: column;
+
+//   .tab-list {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     list-style: none;
+//     gap: 20px;
+//     font-size: 18px;
+
+//     li {
+//       padding: 15px 30px;
+//       cursor: pointer;
+//       background: #000;
+//       border-radius: 8px;
+//       position: relative;
+//       -webkit-user-select: none;
+//       -ms-user-select: none;
+//       user-select: none;
+
+//       &.active {
+//         background-color: #800;
+//         font-weight: 800;
+
+//         &:after {
+//           content:'';
+//           position: absolute;
+//           top: 100%;
+//           left: 50%;
+//           margin-left: -10px;
+//           width: 0;
+//           height: 0;
+//           border-top: solid 10px #800;
+//           border-left: solid 10px transparent;
+//           border-right: solid 10px transparent;
+//       }
+
+//       }
+//     }
+//   }
+
+// }
+
+// input.panelSearcher,
+// input.photoOpSearcher {
+//   border: #333 2px solid;
+//   background-color: #000;
+//   border-radius: 10px;
+//   padding: 10px 15px;
+//   margin-bottom: 20px;
+//   font-size: 25px;
+//   font-weight: 400;
+//   color: #fff;
+//   width: 75%;
+// }
+
+
+// @media (max-width: 990px) {
+
+// .content-body {
+//   .content-box {
+//     min-width: none;
+//     width: 100%;
+
+//     h1 {
+//       text-align: center;
+//     }
+//   }
+// }
+
+// }
