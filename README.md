@@ -1,6 +1,6 @@
 # Power Morphicon Planner
 
-Using the data on the PMC website, I created a more user-friendly, searchable (and READABLE!) panel schedule using what I've learned in React so far.
+Using the data on the PMC website, I created a more user-friendly, accessible and searchable panel/photo ops schedule using what I've learned in React so far.
 
 For comments, suggestions and typo reports and changes, please reach out to my Twitter.
 
