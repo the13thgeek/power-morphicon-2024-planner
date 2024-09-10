@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import ReactGA from 'react-ga';
+import React, { useEffect } from "react";
+import ReactGA from 'react-ga4';
 import { HashRouter as Router, Routes, Route, } from "react-router-dom";
 import Analytics from "./components/Analytics";
 
@@ -12,7 +12,11 @@ import PageBadges from "./pages/PageBadges";
 import "./App.scss";
 
 const App = () => {  
-  ReactGA.initialize('G-FJL6SYR9ZC');
+
+  useEffect(() => {
+    ReactGA.initialize('G-FJL6SYR9ZC');
+  },[]);
+  
 
   return (
     <Router>
