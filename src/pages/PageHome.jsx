@@ -39,6 +39,13 @@ const PageHome = () => {
                         <p>This page is currently being updated for the <b>Power Morphicon 2026</b> (with possible support for PMCX 2025). Stay tuned for new information coming soon!</p>
                     </div>
                 </Tile>
+                <Tile className='announcement pmc'>
+                    <div className="body">
+                        <h3>PMC 2026 Announced!</h3>
+                        <p>August 28 - 29, 2026<br />
+                        Pasadena Convention Center</p>
+                    </div>
+                </Tile>
                 <Tile className='module panels' linkTo='panels/'>
                     <div className='content'>
                         <h3>Panels</h3>
@@ -59,6 +66,16 @@ const PageHome = () => {
                         <i className="fa-solid fa-camera"></i>
                     </div> */}
                 </Tile>
+                <Tile className='module badges' linkTo='badges/'>
+                    <div className='content'>
+                        <h3>Badges</h3>
+                        <p>Unlock your Command Center credentials</p>
+                        <div className="action">See Badges</div>
+                    </div>
+                    {/* <div className="icon">
+                        <i className="fa-solid fa-ticket"></i>
+                    </div> */}
+                </Tile>
                 <Tile className='module guests'>
                     <div className='content'>
                         <h3>Guests</h3>
@@ -77,16 +94,6 @@ const PageHome = () => {
                     </div>
                     {/* <div className="icon">
                         <i className="fa-solid fa-store"></i>
-                    </div> */}
-                </Tile>
-                <Tile className='module badges'>
-                    <div className='content'>
-                        <h3>Badges</h3>
-                        <p>Unlock your Command Center credentials</p>
-                        <div className="action disabled">Under Construction</div>
-                    </div>
-                    {/* <div className="icon">
-                        <i className="fa-solid fa-ticket"></i>
                     </div> */}
                 </Tile>
                 <Tile className='disclaimer'>

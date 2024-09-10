@@ -50,13 +50,22 @@ const PagePanels = () => {
             </div>
         </Heading>
         <div className="structure">
-            <div className="structure-content">
+            <div className="structure-content">                
+                <Tile className='dialog notice'>
+                    <div className="icon">
+                        <i className="fa-solid fa-wrench"></i>
+                    </div>
+                    <div className='message'>
+                        <h3>In Active Development</h3>
+                        <p>Displayed data is <b><u>for testing only</u></b> and may not be accurate. Updates will be announced!</p>
+                    </div>
+                </Tile>
                 <p className="instruction">
                     Browse the Panels schedule below or use the text box search for a panel.
                 </p>
                 <input className="panel-searcher" id="panelSearcher" type="text" placeholder="Search by panel, room or participant names" value={searchTerm} onChange={handleInputChange} />
 
-                { filteredData.length == 0 ? (<p>No panels matched your search for <b>"{searchTerm}."</b></p>) : "" }
+                { filteredData.length == 0 ? (<p className="no-data">No panels matched your search for <b>"{searchTerm}."</b></p>) : "" }
 
                 {filteredData.map((day, index) => (
                 <Tile key={index} className='results panel section'>

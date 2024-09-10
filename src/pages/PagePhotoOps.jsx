@@ -50,12 +50,21 @@ const PagePhotoOps = () => {
         </Heading>
         <div className="structure">
             <div className="structure-content">
+                <Tile className='dialog notice'>
+                    <div className="icon">
+                        <i className="fa-solid fa-wrench"></i>
+                    </div>
+                    <div className='message'>
+                        <h3>In Active Development</h3>
+                        <p>Displayed data is <b><u>for testing only</u></b> and may not be accurate. Updates will be announced!</p>
+                    </div>
+                </Tile>
                 <p className="instruction">
                     Browse the Photo Ops schedule below or use the text box search for a photo op.
                 </p>
                 <input className="photo-ops-searcher" id="photoOpSearcher" type="text" placeholder="Search by guest or group name" value={searchTerm} onChange={handleInputChange} />
 
-                { filteredData.length == 0 ? (<p>No photo ops matched your search for <b>"{searchTerm}."</b></p>) : "" }
+                { filteredData.length == 0 ? (<p className="no-data">No photo ops matched your search for <b>"{searchTerm}."</b></p>) : "" }
 
                 { filteredData.map((type, index) => (
                     <Tile key={index} className='results photo-ops section'>

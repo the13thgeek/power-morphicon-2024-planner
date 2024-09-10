@@ -5,6 +5,7 @@ import { HashRouter as Router, Routes, Route, } from "react-router-dom";
 import PageHome from "./pages/PageHome";
 import PagePanels from "./pages/PagePanels";
 import PagePhotoOps from "./pages/PagePhotoOps";
+import PageBadges from "./pages/PageBadges";
 
 import Footer from './components/Footer';
 import "./App.scss";
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path="/" element={<PageHome />} />
         <Route exact path="/panels" element={<PagePanels />} />
         <Route exact path="/photo-ops" element={<PagePhotoOps />} />
+        <Route exact path="/badges" element={<PageBadges />} />
         <Route path="*" element={<PageHome />} />
       </Routes>
     </Router>

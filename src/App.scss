@@ -62,6 +62,12 @@ body {
 
 @media (max-width: 768px) {
 
+  :root {
+    --content-radius: 30px;
+    --content-padding: 25px;
+    --content-tile-radius: 20px;
+  }
+
   .structure {
     width: 100%;
     margin: 0;
