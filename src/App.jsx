@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import ReactGA from 'react-ga';
 import { HashRouter as Router, Routes, Route, } from "react-router-dom";
+import Analytics from "./components/Analytics";
 
 /* Pages */
 import PageHome from "./pages/PageHome";
@@ -7,13 +9,14 @@ import PagePanels from "./pages/PagePanels";
 import PagePhotoOps from "./pages/PagePhotoOps";
 import PageBadges from "./pages/PageBadges";
 
-import Footer from './components/Footer';
 import "./App.scss";
 
 const App = () => {  
+  ReactGA.initialize('G-FJL6SYR9ZC');
 
   return (
     <Router>
+      <Analytics />
       <Routes>
         <Route index element={<PageHome />} />
         <Route exact path="/" element={<PageHome />} />
