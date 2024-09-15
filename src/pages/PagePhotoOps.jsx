@@ -32,7 +32,7 @@ const PagePhotoOps = () => {
         setSearchTerm(e.target.value);
     };
 
-    setBodyColor({color: '#3b87e3'});
+    setBodyColor({color: '#0033cc'});
 
   return (
     <div id='photo-ops'>

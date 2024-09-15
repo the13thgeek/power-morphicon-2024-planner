@@ -33,7 +33,7 @@ const PagePanels = () => {
         setSearchTerm(e.target.value);
     };
     
-    setBodyColor({color: '#d94444'});
+    setBodyColor({color: '#a50606'});
 
   return (
     <div id='panels'>

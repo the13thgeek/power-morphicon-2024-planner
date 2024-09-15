@@ -14,7 +14,9 @@ import "./App.scss";
 const App = () => {  
 
   useEffect(() => {
-    ReactGA.initialize('G-FJL6SYR9ZC');
+    if(import.meta.env.MODE === 'production') {
+      ReactGA.initialize('G-FJL6SYR9ZC');
+    }
   },[]);
   
 
